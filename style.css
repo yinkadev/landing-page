@@ -14,12 +14,12 @@ img{
 
 /* having a general container for the project */
 
- /* .container{
+ .container{
   width: 100%;
-  height: 500vh;
+  height: 100vh;
   padding:0 20px ;
   position: relative;
-}  */
+} 
 
 /* the first section withe header */
 .sectionOne{
@@ -27,7 +27,7 @@ img{
   position: absolute;
   top:0px;
   left:0;
-  width:1728px;
+  width:100%;
   height: 1049px;
 }
 
@@ -43,9 +43,9 @@ header{
 span{
   border-bottom: 1px solid white;
   position: absolute;
-  width: 1487px;
+  width: 1200px;
 height: 0px;
-left: 118px;
+left: 90px;
 top: 147px
 }
 
@@ -60,9 +60,11 @@ ul li a{
   color:#fff;
   font-family: 'Nunito';
 font-size: 16px;
-font-weight: 200;
+font-weight: 400;
 line-height: 27px;
 letter-spacing: 0em;
+display: flex;
+align-items: center;
 }
 
 header li{
@@ -74,7 +76,7 @@ a{
 }
 
 header button{
-padding: 15px 30px;
+padding: 11px 20px;
 background: #0074EF;
 border-radius: 10px;
 font-family: 'Nunito';
@@ -93,12 +95,12 @@ gap:15px
 .informationDiv{
   display: flex;
   justify-content: space-between; 
-  align-items: center;
-}
+  margin-top: 2rem;
 
-.info{
-  color: #fff;
+}
+ .info{
 margin-top: 6rem;
+color: #fff;
 }
 
 .info p{
@@ -107,7 +109,8 @@ margin-top: 6rem;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  padding-bottom: 10px;
+  padding: 20px 0;
+
 }
 
 .info h1{
@@ -118,41 +121,27 @@ line-height: 62px;
 letter-spacing: 0em;
 text-align: left;
 font-family: Inter;
-font-size: 48px;
+font-size: 40px;
 font-weight: 600;
-line-height: 62px;
+line-height: 50px;
 letter-spacing: 0em;
 text-align: left;  
 }
-
-.info h2{
-  font-family: Nunito;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 62px;
-  letter-spacing: 0em;
-  text-align: left;
-  font-family: Inter;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 62px;
-  letter-spacing: 0em;
-  text-align: left;
-color: #0074EF;
-  
-}
+ .info .span{
+  color: #0074EF;
+ }
 
 h3{
   font-family: 'Nunito';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 15px;
 line-height: 31px;
-padding-top: 20px;
+padding-top: 50px;
 }
 
 .image{ 
-width: 600px;
+width: 450px;
 }
 
 
@@ -177,22 +166,22 @@ line-height: 35px;
 }
 
 .buildWith .iconDiv img{
-  width: 23px;
+  width: 20px;
 
 }
 .buildWith .iconDiv{
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 color: #fff;
 }
 
 .exploring{
   position: absolute;
-  top:1000px;
+  top:990px;
   left:0;
-  width:1728px;
-  height: 1049px;
+  width:100%;
+  height: 149px;
 
 }
 
@@ -207,7 +196,7 @@ color: #fff;
   font-family: 'Nunito';
 font-style: normal;
 font-weight: 600;
-font-size: 31px;
+font-size: 29px;
 line-height: 48px;
 color: #152C5B;
 }
@@ -242,7 +231,6 @@ color: #fff;
 border-radius: 10px;
 background: #0E0B2B;
 border-radius: 10px;
-
 display: flex;
 align-items: center;
 justify-content: center;
@@ -281,7 +269,7 @@ gap:10px
   font-family: 'Nunito';
 font-style: normal;
 font-weight: 600;
-font-size: 31px;
+font-size: 29px;
 line-height: 48px;
 color: #152C5B;
 }
@@ -293,6 +281,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 32px;
+padding-top: 10px;
 color: #718096;
 }
 
@@ -300,7 +289,7 @@ color: #718096;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:9rem;
+  gap:7rem;
   margin-top: 4rem;
 }
 
@@ -308,7 +297,7 @@ color: #718096;
 font-family: 'Nunito';
 font-style: normal;
 font-weight: 700;
-font-size: 30px;
+font-size: 27px;
 color: #152C5B;
 }
 
@@ -336,7 +325,7 @@ color: #152C5B;
 .rankingsection{
   background-image: url(img/Rectangle\ 13.png);
    position: absolute;
-width: 1728px;
+width: 100%;
 height: 700px;
 top: 1612px;
 left: 0;
@@ -345,7 +334,7 @@ left: 0;
 .rankingwords{
 position: absolute;
 top: 180px;
-left:613px;
+left:313px;
 font-family: 'Nunito';
 font-style: normal;
 color: #FFFFFF;
@@ -379,16 +368,15 @@ padding-top: 10px;
 
  .rankingDivs{
   position: absolute;
-left: 130px;
+left: 120px;
 top: 367px;
   display: grid;
-  grid-template-columns:repeat(3,350px);
+  grid-template-columns:repeat(3,290px);
   row-gap:10px;
-  column-gap: 10rem;
+  column-gap: 3rem;
   align-items: center;
   /* justify-content: space-between;  */
-  
-  
+ 
 }
 
 
@@ -430,10 +418,8 @@ color: #152C5B;
 }
 
 .informationSection .image{
-  margin-left: 50px;
   width: 600px;
-  margin-top: 20px;
- 
+  margin-top: 50px;
 }
 
 .words h3{
@@ -453,7 +439,6 @@ font-size: 18px;
 line-height: 34px;
 color: #718096;
 padding: 60px 0;
-
 }
 
 .list{
@@ -461,8 +446,7 @@ padding: 60px 0;
   gap:10px;
 }
 
-.list h4{
-  
+.list h4{ 
 font-family: 'Nunito';
 font-style: normal;
 font-weight: 600;
@@ -495,11 +479,10 @@ padding-bottom:19px ;
 
 .blueBackground{
   position: absolute;
-width: 1198px;
+width: 900px;
 height: 308px;
-left: 268px;
+left: 168px;
 top: 567px;
-
 background: #152C58;
 border-radius: 0px 30px;
 }
@@ -513,7 +496,7 @@ gap: 27px;
 position: absolute;
 width: 383.58px;
 height: 62px;
-left: 661px;
+left: 391px;
 top: 108px;
 background: #fff;
 color: #152C5B;
@@ -525,7 +508,7 @@ border-radius: 10px;
 footer{
   background-image: url(img/Rectangle\ 13.png);
   position: absolute;
-width: 1728px;
+width:100%;
 height: 1002px;
 left: 0;
 top: 3400px;
@@ -536,7 +519,7 @@ top: 3400px;
   position: absolute;
 width: 494px;
 height: 134px;
-left: 188px;
+left: 110px;
 top: 200px;
 font-family: 'Nunito';
 font-style: normal;
@@ -548,11 +531,11 @@ color: #FFFFFF;
 flex-direction: row;
 align-items: center;
 padding: 20px 69px;
+width:800px;
 gap: 27px;
 position: absolute;
-/* width: 353.58px; */
 height: 62px;
-left: 731px;
+left: 580px;
 top: 200px;
 }
 
@@ -560,15 +543,15 @@ top: 200px;
   font-family: 'Nunito';
 font-style: normal;
 font-weight: 600;
-font-size: 28px;
+font-size: 20px;
 line-height: 48px;
 }
 .footerDiv p{
   font-family: 'Nunito';
 font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 40px; 
+font-weight: 200;
+font-size: 15px;
+line-height: 30px; 
 padding-top: 20px;
 }
 
@@ -583,17 +566,17 @@ padding-top: 20px;
 }
 .divnav img{
   position: absolute;
-  width: 190px;
+  width: 150px;
   height: 70px;
-  left: 189px;
-  top: 400px
+  left: 95px;
+  top: 450px
 }
 
 .divnav p {
   position: absolute;
 width: 320px;
 height: 96px;
-left: 189px;
+left: 89px;
 top: 600px;
 font-family: 'Nunito';
 font-style: normal;
@@ -605,11 +588,10 @@ color: #FFFFFF;
 
 .divnav2 {
   position: absolute;
-left: 800px;
-top: 400px;
-font-family: 'Nunito';
+left: 940px;
+top: 450px;
 font-style: normal;
-font-weight: 600;
+font-weight: 200;
 font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
@@ -617,24 +599,22 @@ color: #FFFFFF;
 
 .divnav3{
   position: absolute;
-  left: 1100px;
-  top: 400px;
+  left: 650px;
+  top: 450px;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
 }
 
 .divnav4{
   position: absolute;
-left: 1400px;
-top: 400px;
+left: 1100px;
+top: 450px;
 font-family: 'Nunito';
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
 }
@@ -643,4 +623,36 @@ color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+footer .mainnav ul li{
+  font-size: 13px;
+  font-family: 'Nunito';
+  font-weight: 400;
+display: flex;
+align-items: center;
+padding-bottom: 3px;
+}
+
+footer .mainnav h4{
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-size: 13px;
+  font-family: 'Nunito';
+  font-weight: 400;
+display: flex;
+align-items: center
+}
+
+
+.copywrite p{
+  position: absolute;
+  font-size: 13px;
+    right: 900px;
+  bottom: 100px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #FFFFFF;
 }
